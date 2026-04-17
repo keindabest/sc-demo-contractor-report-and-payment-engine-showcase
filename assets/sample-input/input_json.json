@@ -1,0 +1,42 @@
+{
+  "sys": {
+    "timestamp": "2026-04-13T13:10:00Z",
+    "user": "demo-operator@example.com",
+    "mode": "MOCK_MODE"
+  },
+  "direct": {
+    "contractor": "Alex Carter",
+    "customer": "Northwind Operations",
+    "period": {
+      "month": "April",
+      "year": 2026
+    },
+    "amount": 12000.0,
+    "currency": "USD"
+  },
+  "computed": {
+    "allocations": [
+      {
+        "service": "Systems Architecture",
+        "hours": 45,
+        "rate": 100.0056,
+        "amount": 4500.25
+      },
+      {
+        "service": "Technical Documentation",
+        "hours": 35,
+        "rate": 99.9929,
+        "amount": 3499.75
+      },
+      {
+        "service": "API Integration",
+        "hours": 40,
+        "rate": 100.0,
+        "amount": 4000.0
+      }
+    ],
+    "amountInWords": "Twelve thousand US dollars and 00 cents",
+    "allocationPolicy": "controlled-policy-v1",
+    "checksumStatus": "cent-exact"
+  }
+}
