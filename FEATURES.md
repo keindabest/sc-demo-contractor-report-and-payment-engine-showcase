@@ -16,7 +16,7 @@ Template-driven document outputs are assembled and exported in a reproducible st
 Each run leaves a navigable evidence path from source context to generated files, with archive-first handling for prior artifacts and direct linkage back to managed database records.
 
 ## 6. Operational UX
-The experience is optimized for recurring operations through four coordinated tabs: Generation, Contractor Registry, Customer Registry, and Role Configuration. Teams can fully manage database content and Jira recognition behavior from the same application surface. Mock mode is kept as a debugging advantage, while mock captures are excluded from the public package.
+The experience is optimized for recurring operations through four coordinated tabs: Generation, Contractor Registry, Customer Registry, and Contractor Roles. Teams can fully manage database content and Jira recognition behavior from the same application surface. Mock mode is kept as a debugging advantage, while internal debug captures are excluded from the public package.
 
 ## Navigation
 - [README](README.md)

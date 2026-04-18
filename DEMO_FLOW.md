@@ -1,32 +1,40 @@
 # Demo Flow
 
 ## Step 1: Input and Selection
-The operator opens the application and verifies required data in the four-tab control center (Generation, Contractor Registry, Customer Registry, Role Configuration).
+The operator opens the app and checks core data in the four-tab control center (Generation, Contractor Registry, Customer Registry, Contractor Roles).
 
 Optional Step 1A: Data Refresh in Registries
-- If the people list or linked customer/role records are outdated, the operator updates data directly in the registry tabs before generation.
-- This keeps contractor/customer selections and related billing context current for the run.
+- If contractor/customer/role records are outdated, the operator updates them directly in registry tabs before generation.
+- This keeps payout context current for the run.
 
 After optional updates, the operator selects contractor/customer/month/year in the Generation tab.
 
-Public note: screenshots and explicit mock result captures are intentionally omitted from this package.
+Main generation screen:
+
+![Generation form](assets/sample-input/input_UI_screenshot.png)
+
+Registry examples:
+
+![Contractor registry](assets/screenshots/base_list.png)
+
+![Customer registry](assets/screenshots/clients_list.png)
 
 ## Step 2: Validation
-The operator runs the sync stage. The system validates context completeness and the configured Jira recognition scenario, keeping generation controls locked until the validation gate passes.
+The operator runs Jira sync. The system validates context completeness and keeps generation locked until the gate passes.
 
 ## Step 3: Processing
-After validation, the system captures a run snapshot, applies policy-based allocation checks, and prepares output targets with concurrency protection using current in-app database state.
+After validation, the system captures a run snapshot, applies allocation checks, and prepares output targets with concurrency protection.
 
-Optional debug path: operators can run mock-mode checks for scenario validation before live generation, without publishing internal mock captures.
+Optional debug path: operators can run mock-mode checks before live generation.
 
 ## Step 4: Output Generation
-The pipeline generates the required billing artifacts, applies template mappings, and produces final output files with structured naming.
+The pipeline generates billing artifacts (reports, SOW files, combined outputs), applies template mappings, and stores files in the target Drive folder.
 
 ## Step 5: Result and Traceability
-Generated files are placed in a target Drive folder, and the input record points to that folder for direct evidence lookup.
+Generated files are stored in the run folder, and the input record links to that folder for direct evidence lookup.
 
 ## User Perspective Summary
-From the operator perspective, the flow is linear: maintain data in the control tabs, select context, validate, generate, and review outputs. The process emphasizes control and repeatability over manual document assembly. Results are immediately discoverable through linked storage artifacts.
+The flow is linear and operator-friendly: update registries if needed, select context, validate with Jira sync, generate artifacts, and review outputs. It removes manual packet assembly and preserves a clear trace from source to result.
 
 ## Navigation
 - [README](README.md)

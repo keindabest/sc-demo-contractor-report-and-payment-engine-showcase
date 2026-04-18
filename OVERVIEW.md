@@ -1,43 +1,40 @@
 # Overview
 
 ## Problem
-Contractor billing packets often require manual collection of inputs, repetitive document preparation, and cross-team coordination before payout can proceed. At the same time, auditor requirements for contractor expense controls can change over time, and documentation quality is reviewed from a tax-compliance perspective for self-employed payees. This creates delays, inconsistent evidence quality, and avoidable operational risk.
+Recurring contractor payouts are operationally fragile when packet preparation is manual: finance teams spend hours assembling data, evidence quality varies by operator, and auditor expectations keep changing. The result is payout delays and higher compliance exposure.
 
 ## Target Users
-- Finance operations teams managing recurring contractor payouts.
-- Controllers and reviewers who need predictable evidence trails.
-- Operations leaders evaluating workflow automation for billing and compliance documentation.
-- Technical stakeholders assessing solution fit in Google Workspace environments.
+- Business owners who want faster monthly closes with lower audit friction.
+- Finance operations teams running recurring contractor payouts.
+- Controllers/reviewers who need predictable evidence trails.
+- Recruiters and technical reviewers who need a clear, real project signal.
 
 ## Value Delivered
-- Guided run model from input to generated artifacts.
-- Four-layer operating model in one interface: Generation, Contractor Registry, Customer Registry, and Role Configuration.
-- Full in-app management of operational database records used by the billing flow.
-- Configurable Jira recognition scenario in the same application flow before generation, using timesheet-driven context.
-- Stronger consistency in how billing packets are assembled.
-- Faster cycle time for recurring monthly runs (1 to 3 hours down to under 10 minutes per contractor packet).
-- Traceable handoff from source row to final output folder.
-- 50+ contractors and roughly 200 to 500 generated documents supported per month.
-- Approx. 20% lower recurring finance/accounting operational load.
-- Finance-owned operation model that keeps familiar document-creation patterns while automating execution and monitoring.
+- One guided run from input selection to generated payout packet.
+- Jira-gated validation before generation is allowed.
+- In-app data control across Generation, Contractor Registry, Customer Registry, and Contractor Roles.
+- Traceability from source context to Drive output folder.
+- Typical cycle-time reduction from 1 to 3 hours to under 10 minutes per contractor packet.
+- Stable monthly usage at 50+ contractors and about 200 to 500 generated documents.
+- Approx. 20% lower recurring finance/accounting operational effort.
 
 ### Before vs After (High Level)
 | Aspect | Before | After |
 |---|---|---|
-| Packet preparation | Manual, repeated assembly | Guided end-to-end generation |
+| Packet preparation | Manual and repetitive | Guided end-to-end generation |
 | Time to produce packet | 1 to 3 hours | Under 10 minutes |
-| Compliance claims signal | Claim risk due to inconsistent packet quality | 0 bank/tax claims in a 6-month operating window |
-| Evidence organization | Varies by operator | Standardized foldered outputs |
+| Compliance signal | Inconsistent evidence quality | 0 bank/tax claims in a 6-month window |
+| Evidence organization | Operator-dependent | Standardized foldered outputs |
 | Audit navigation | Fragmented lookup | Direct row-to-folder traceability |
-| Data control model | Split between manual sheet updates and run-time actions | Unified in-app control across 4 operational tabs |
-| Monthly workload handling | Manual scaling pressure | 50+ contractors and about 200 to 500 docs monthly |
-| Operational effort | Higher recurring overhead | Approx. 20% lower recurring load |
+| Data control model | Split and manual | Unified in-app control across 4 tabs |
+| Monthly workload | Manual scaling pressure | 50+ contractors, 200 to 500 docs monthly |
+| Operational effort | Higher recurring overhead | About 20% lower recurring load |
 
 ## Why This Matters
-Recurring billing operations benefit from repeatable controls and predictable output structure, especially when auditor expectations evolve. This approach keeps the finance team in control, automates document generation from Jira timesheet context, and makes monitoring and expense-operation compliance easier in day-to-day work.
+For business operations, this is not just faster document generation. It is a control mechanism that reduces payout friction, protects recurring cashflow, and gives finance a repeatable compliance trail without daily engineering dependency.
 
 ## Scope of This Demo
-This package demonstrates a public-safe version of the workflow, architecture, and outputs. It does not expose internal orchestration logic, production-only identifiers, or client-specific details.
+This package shows the workflow, architecture, screenshots, and synthetic sample artifacts needed to evaluate the solution quickly. It does not expose secrets, private client data, or internal orchestration details.
 
 ## Navigation
 - [README](README.md)

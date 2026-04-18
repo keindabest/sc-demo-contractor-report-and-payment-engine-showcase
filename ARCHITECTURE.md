@@ -1,7 +1,7 @@
 # Architecture
 
 ## High-Level Components
-- Operational Control Layer (4 Tabs): Generation, Contractor Registry, Customer Registry, and Role Configuration.
+- Operational Control Layer (4 Tabs): Generation, Contractor Registry, Customer Registry, and Contractor Roles.
 - Input Layer: operator form, contractor/customer/period selection, and sync initiation.
 - Processing Layer: snapshot assembly, policy-based allocation calculation, and concurrency control.
 - Output Layer: document generation, PDF outputs, and Drive folder provisioning with archive behavior.
@@ -15,7 +15,7 @@ The demo reflects a Google Workspace stack centered on Apps Script, Google Sheet
   |-- Generation Tab
   |-- Contractor Registry Tab
   |-- Customer Registry Tab
-  |-- Role Configuration Tab
+  |-- Contractor Roles Tab
       |
       v
 [ Validation + Sync Gate ]
