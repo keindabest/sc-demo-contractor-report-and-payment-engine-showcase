@@ -13,6 +13,10 @@ Main generation screen:
 
 ![Generation form](assets/sample-input/input_UI_screenshot.png)
 
+Full generation view in one screen:
+
+![Generation UI](assets/screenshots/overall_ui.png)
+
 Registry examples:
 
 ![Contractor registry](assets/screenshots/base_list.png)

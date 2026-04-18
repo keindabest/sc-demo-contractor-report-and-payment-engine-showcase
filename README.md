@@ -4,7 +4,6 @@ Manual contractor payout packets usually fail on operations: too many handoffs, 
 
 **Typical transformation: 1 to 3 hours of manual prep per contractor packet -> under 10 minutes in one guided run.**
 
-### Hero Section
 ![Hero section](assets/screenshots/hero_section.png)
 
 ## Key Capabilities
@@ -25,15 +24,6 @@ Manual contractor payout packets usually fail on operations: too many handoffs, 
 | Team load | Repeated cross-team handoffs | About 20% lower recurring finance/accounting effort |
 | Data control | Spreadsheet edits in scattered places | In-app control across 4 tabs |
 
-### Screens You Can Review
-Main generation flow:
-
-![Generation UI](assets/screenshots/overall_ui.png)
-
-Registry example:
-
-![Contractor registry](assets/screenshots/base_list.png)
-
 ## Demo Access
 - Deployed Application: https://script.google.com/macros/s/AKfycbyrbdZGJvIlB6GStnnLtYaIi233pMD99_L1wYDOlCJvNbCe1Vcl7eDxJGbU5vUgXjJG/exec
 - Database: https://docs.google.com/spreadsheets/d/19PDr-R5DAtLRL1EVh2zVdjLidEXx9b3L1YQnxs5cfIg/edit?usp=sharing
@@ -48,18 +38,15 @@ Registry example:
 5. Open the Drive folder and inspect generated packet files.
 
 ## Demo Documentation Map
-Start here:
-- [OVERVIEW](OVERVIEW.md)
-- [DEMO_FLOW](DEMO_FLOW.md)
-- [FILES](FILES.md)
 
-Then:
+- Start here: [OVERVIEW](OVERVIEW.md) -> [DEMO_FLOW](DEMO_FLOW.md) -> [FILES](FILES.md)
 - [FEATURES](FEATURES.md)
 - [ARCHITECTURE](ARCHITECTURE.md)
 - [USE_CASES](USE_CASES.md)
 - [SECURITY_AND_DISCLOSURE](SECURITY_AND_DISCLOSURE.md)
 - [DEPLOYMENT](DEPLOYMENT.md)
 - [LICENSE](LICENSE)
+
 
 ## Disclosure (Short)
 This is a sanitized public showcase. It includes synthetic screenshots and synthetic sample artifacts, and excludes secrets, private mappings, and internal orchestration details.
