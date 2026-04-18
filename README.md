@@ -55,4 +55,7 @@ This is a sanitized public showcase. It includes synthetic screenshots and synth
 This demo package is released under the [MIT License](LICENSE).
 
 ## Author
-Daniil Kein
+
+Daniel Kein
+
+https://www.linkedin.com/in/daniel-kein/
