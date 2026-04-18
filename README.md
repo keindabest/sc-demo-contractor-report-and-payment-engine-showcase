@@ -48,17 +48,14 @@ Registry example:
 5. Open the Drive folder and inspect generated packet files.
 
 ## Demo Documentation Map
-Start here:
-1. [Overview](OVERVIEW.md)
-2. [Demo Flow](DEMO_FLOW.md)
-3. [Architecture](ARCHITECTURE.md)
+Start here: [OVERVIEW](OVERVIEW.md) -> [DEMO_FLOW](DEMO_FLOW.md) -> [FILES](FILES.md)
 
-Then review:
-- [Features](FEATURES.md)
-- [Use Cases](USE_CASES.md)
-- [Security and Disclosure](SECURITY_AND_DISCLOSURE.md)
-- [Demo Access and Try Path](DEPLOYMENT.md)
-- [Files](FILES.md)
+[FEATURES](FEATURES.md)
+[ARCHITECTURE](ARCHITECTURE.md)
+[USE_CASES](USE_CASES.md)
+[SECURITY_AND_DISCLOSURE](SECURITY_AND_DISCLOSURE.md)
+[DEPLOYMENT](DEPLOYMENT.md)
+[LICENSE](LICENSE)
 
 ## Disclosure (Short)
 This is a sanitized public showcase. It includes synthetic screenshots and synthetic sample artifacts, and excludes secrets, private mappings, and internal orchestration details.
