@@ -26,7 +26,7 @@ Mock-mode before/after examples are intentionally withheld to avoid disclosing i
 - Deployed Application: https://script.google.com/macros/s/AKfycbx2oa6XNMUjDHL7GLhG693FovAVhuLafTBeWe8G9y7H5uFZLFioAqAMAqUCO0-ndvBg/exec
 - DataBase: https://docs.google.com/spreadsheets/d/1JUpzYpNbTBxQrUdxjW2XcXKGB2t9WTbv9pg12wPPLjg/edit?usp=sharing
 - Generated Documents (Drive): https://drive.google.com/drive/folders/1T7l4R3PMPFFR2-jJxzz9QeDYiwZDUg5h
-- Public Showcase Repository: https://github.com/keindabest/sc-demo-invoice-report-creator-showcase
+- Public Showcase Repository: https://github.com/keindabest/sc-demo-contractor-report-and-payment-engine-showcase
 
 ## Notes
 Mock mode remains part of operational debugging capability, but mock outputs and captures are intentionally excluded from public showcase materials.
