@@ -16,19 +16,75 @@ Manual contractor payout packets usually fail on operations: too many handoffs, 
 - Direct traceability from selected input to output folder.
 
 ## Outcome Snapshot
-| Dimension | Before | After |
-|---|---|---|
-| Packet prep time | 1 to 3 hours per contractor | Under 10 minutes per contractor |
-| Compliance signal | Inconsistent evidence quality | 0 bank/tax claims in a 6-month window |
-| Monthly throughput | Limited by manual effort | 50+ contractors and about 200 to 500 generated docs |
-| Team load | Repeated cross-team handoffs | About 20% lower recurring finance/accounting effort |
-| Data control | Spreadsheet edits in scattered places | In-app control across 4 tabs |
+<table width="100%">
+  <colgroup>
+    <col style="width: 36%;">
+    <col style="width: 32%;">
+    <col style="width: 32%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th align="left">Dimension</th>
+      <th align="left">Before</th>
+      <th align="left">After</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Packet prep time</td>
+      <td>1 to 3 hours per contractor</td>
+      <td>Under 10 minutes per contractor</td>
+    </tr>
+    <tr>
+      <td>Compliance signal</td>
+      <td>Inconsistent evidence quality</td>
+      <td>0 bank/tax claims in a 6-month window</td>
+    </tr>
+    <tr>
+      <td>Monthly throughput</td>
+      <td>Limited by manual effort</td>
+      <td>50+ contractors and about 200 to 500 generated docs</td>
+    </tr>
+    <tr>
+      <td>Team load</td>
+      <td>Repeated cross-team handoffs</td>
+      <td>About 20% lower recurring finance/accounting effort</td>
+    </tr>
+    <tr>
+      <td>Data control</td>
+      <td>Spreadsheet edits in scattered places</td>
+      <td>In-app control across 4 tabs</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Demo Access
-- Deployed Application: https://script.google.com/macros/s/AKfycbyrbdZGJvIlB6GStnnLtYaIi233pMD99_L1wYDOlCJvNbCe1Vcl7eDxJGbU5vUgXjJG/exec
-- Database: https://docs.google.com/spreadsheets/d/19PDr-R5DAtLRL1EVh2zVdjLidEXx9b3L1YQnxs5cfIg/edit?usp=sharing
-- Generated Documents (Drive): https://drive.google.com/drive/folders/174NopgrVC9V-PW6uw1kxrGJDXHrzgslo
-- Public Showcase Repository: https://github.com/keindabest/sc-demo-contractor-report-and-payment-engine-showcase
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="36%">Resource</th>
+      <th align="left">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web Application</td>
+      <td><a href="https://script.google.com/macros/s/AKfycbyrbdZGJvIlB6GStnnLtYaIi233pMD99_L1wYDOlCJvNbCe1Vcl7eDxJGbU5vUgXjJG/exec">Open Web Application</a></td>
+    </tr>
+    <tr>
+      <td>Data Source (Google Sheets)</td>
+      <td><a href="https://docs.google.com/spreadsheets/d/19PDr-R5DAtLRL1EVh2zVdjLidEXx9b3L1YQnxs5cfIg/edit?usp=sharing">Open Data Source</a></td>
+    </tr>
+    <tr>
+      <td>Generated Output Folder (Google Drive)</td>
+      <td><a href="https://drive.google.com/drive/folders/174NopgrVC9V-PW6uw1kxrGJDXHrzgslo">Open Output Folder</a></td>
+    </tr>
+    <tr>
+      <td>Public Showcase Repository</td>
+      <td><a href="https://github.com/keindabest/sc-demo-contractor-report-and-payment-engine-showcase">Open Public Showcase Repository</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Quick How to Try Demo
 1. Open the deployed application.
@@ -49,10 +105,12 @@ Manual contractor payout packets usually fail on operations: too many handoffs, 
 
 
 ## Disclosure (Short)
+
 This is a sanitized public showcase. It includes synthetic screenshots and synthetic sample artifacts, and excludes secrets, private mappings, and internal orchestration details.
 
 ## License
-This demo package is released under the [MIT License](LICENSE).
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Author
 
